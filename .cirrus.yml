@@ -64,7 +64,7 @@ upload_release_task:
     - build_windows
     - build_linux
   env:
-    GITHUB_TOKEN: ENCRYPTED[299799ab57de29b0c87542c625013a262bcbb44a5538bba5ebb40d1b5728f8cf9148e2cf99e750a0991f7bf53142b85c]
+    GITHUB_TOKEN: ENCRYPTED[1a9b0cfbf411df9e7b799b091f1b7946fe8a8ed5c3a82a1e89da3fd668efb556271b4895b76796759529cb3f5ad77f02]
   freebsd_instance:
     image: freebsd-12-0-release-amd64
   download_script: |
